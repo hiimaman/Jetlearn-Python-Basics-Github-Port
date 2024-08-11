@@ -1,4 +1,4 @@
-# Minha doesn't approve
+# Minha doesn't approve of this homework
 
 a = int(input("What is your first number? "))
 b = int(input("What is your second number? "))
