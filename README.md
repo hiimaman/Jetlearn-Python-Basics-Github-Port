@@ -1,1 +1,1 @@
-Use this source code to help you with learning / relearn concepts!
+An open-source coding respitory with all projects from my jetlearn python basics course!
