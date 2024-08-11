@@ -1,0 +1,30 @@
+# Ice Cream Fun!
+# Welcome to the kiosk!
+print("Welcome to Baskin Robbins Kiosk!")
+a = input('enter the number of people! We will recommend\nthe most optimal ice cream to get!\n')
+
+# 1 Person
+if int(a) == 1:
+    print('You should get small or regular.')
+    print('goodbye!')
+
+# 2 Person
+if int(a) == 2:
+    print('You should get double.')
+    print('goodbye!')
+
+# 3 Person
+if int(a) > 2 and int(a) < 5:
+    print('You should get the family pack.')
+    print('goodbye!')
+
+# 4 Person
+if int(a) > 4 and int(a) < 7:
+    print('You should get the Happiness Pack.')
+    print('goodbye!')
+
+# 5 Person
+if int(a) > 6:
+    b = input('Type in one of these options instead\nSmall\nRegular\nDouble\nFamily Pack\nHappiness Pack\n')
+    print('You have chosen the', b)
+    print('Goodbye!')
